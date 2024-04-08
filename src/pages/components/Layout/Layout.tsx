@@ -1,7 +1,7 @@
-import { Aside } from "./Aside";
-import { Footer } from "./Footer";
-import { Header } from "./Header";
-import { MyNav } from "./Nav";
+import { Aside } from "../Aside/Aside";
+import { Footer } from "../Footer/Footer";
+import { Header } from "../Header/Header";
+import { MyNav } from "../Nav/Nav";
 
 export function Layout({children}: any){
     return(
@@ -14,12 +14,12 @@ export function Layout({children}: any){
                     <MyNav />
                 </div>
                 <div className="row">
-                    <div className="col border border-dark">
+                    {/* <div className="col-2 border border-dark">
                         <Aside />
-                    </div>
-                    <div className="col border border-dark">
+                    </div> */}
+                    <main className="main-content col border-dark">
                         {children}
-                    </div>
+                    </main>
                 </div>
                 <div className="row border border-dark">
                     <Footer />
