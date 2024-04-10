@@ -14,9 +14,6 @@ export function Layout({children}: any){
                     <MyNav />
                 </div>
                 <div className="row">
-                    {/* <div className="col-2 border border-dark">
-                        <Aside />
-                    </div> */}
                     <main className="main-content col border-dark">
                         {children}
                     </main>

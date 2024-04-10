@@ -14,7 +14,7 @@ export function MyNav(){
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/about/about">About</Nav.Link>
+                    <Nav.Link href="/about/about">Sobre</Nav.Link>
                     <Nav.Link href="/modules/modules">Módulos</Nav.Link>
                     <Nav.Link href="/login/login">Login</Nav.Link>
                 </Nav>
