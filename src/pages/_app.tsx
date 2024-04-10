@@ -13,7 +13,7 @@ const infant = Ysabeau_Infant({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={infant.className}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </div>
   )
 }
