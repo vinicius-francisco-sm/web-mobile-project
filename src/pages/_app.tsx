@@ -1,7 +1,8 @@
-import "@/styles/globals.css";
+{/*import "@/styles/globals.css";*/}
 import type { AppProps } from "next/app";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/main.min.css';
 import '@/components/Header/Header.css'
+import '@/components/Layout/layout.css'
 import { Ysabeau_Infant } from "next/font/google";
 
 const infant = Ysabeau_Infant({

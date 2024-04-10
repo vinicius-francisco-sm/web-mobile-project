@@ -2,10 +2,14 @@ import { Aside } from "../Aside/Aside";
 import { Footer } from "../Footer/Footer";
 import { Header } from "../Header/Header";
 import { MyNav } from "../Nav/Nav";
+import Head from "next/head";
 
 export function Layout({children}: any){
     return(
         <>
+            <Head>
+                <link rel="shortcut icon" href="/images/logo/traffic-light-logo-tab.png" />
+            </Head>
             <div className="container-fluid">
                 <div className="row border border-dark">
                     <Header />
