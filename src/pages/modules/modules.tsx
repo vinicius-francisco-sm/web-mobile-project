@@ -17,8 +17,7 @@ export default function Modules() {
                 <Card.Body>
                   <Card.Title>Módulo 1</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A debitis quidem numquam laudantium rerum suscipit, exercitationem fuga atque corporis accusantium qui ipsam, repellat dolorem! Inventore voluptatem perspiciatis totam libero recusandae.
                   </Card.Text>
                   <Button variant="primary">Acessar</Button>
                 </Card.Body>
@@ -30,8 +29,7 @@ export default function Modules() {
                 <Card.Body>
                   <Card.Title>Módulo 2</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequuntur sequi est, veritatis, autem quos rerum earum pariatur architecto non cumque laboriosam enim? Deleniti aliquam nisi, reiciendis facere nesciunt ducimus.
                   </Card.Text>
                   <Button variant="primary">Acessar</Button>
                 </Card.Body>
@@ -43,8 +41,7 @@ export default function Modules() {
                 <Card.Body>
                   <Card.Title>Módulo 3</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate fugiat magnam earum atque voluptatem ratione nobis ullam et non aperiam quo autem temporibus, inventore quidem nisi illum culpa. Velit!
                   </Card.Text>
                   <Button variant="primary">Acessar</Button>
                 </Card.Body>
