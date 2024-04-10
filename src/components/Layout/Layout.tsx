@@ -9,6 +9,7 @@ export function Layout({children}: any){
         <>
             <Head>
                 <link rel="shortcut icon" href="/images/logo/traffic-light-logo-tab.png" />
+                <title>Aprenda sobre o trânsito</title>
             </Head>
             <div className="container-fluid">
                 <div className="row border border-dark">
