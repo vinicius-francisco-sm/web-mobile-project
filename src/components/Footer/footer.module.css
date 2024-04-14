@@ -1,16 +1,16 @@
-ul {
+.footer ul {
     list-style-type: none;
 }
-li {
+.footer ul li {
     float: left;
     padding: 16px;
     text-align: center;
     display: block;
 }
-a {
+.footer ul li a {
     color: #000;
     text-decoration: none;
 }
-a:hover {
+.footer a:hover {
     color: #4CCD99;
 }

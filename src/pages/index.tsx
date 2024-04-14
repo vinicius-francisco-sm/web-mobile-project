@@ -1,4 +1,4 @@
-import { Layout } from "@/components/Layout/Layout";
+import Layout from "@/components/layout/layout";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });

@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { Layout } from "@/components/Layout/Layout";
+import Layout from "@/components/layout/layout";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 

@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-export function MyNav(){
+export default function MyNav(){
     return(
         <>
             <Navbar expand="lg" className="bg-secondary">
@@ -14,9 +14,9 @@ export function MyNav(){
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/about/about">Sobre</Nav.Link>
-                    <Nav.Link href="/modules/modules">Módulos</Nav.Link>
-                    <Nav.Link href="/login/login">Login</Nav.Link>
+                    <Nav.Link href="/about/page">Sobre</Nav.Link>
+                    <Nav.Link href="/modules/page">Módulos</Nav.Link>
+                    <Nav.Link href="/login/page">Login</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

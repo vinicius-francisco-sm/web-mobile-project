@@ -1,4 +1,4 @@
-import { Layout } from "@/components/Layout/Layout";
+import Layout from "@/components/layout/layout";
 import { Button, Card } from "react-bootstrap";
 
 export default function Login(){

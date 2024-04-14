@@ -1,10 +1,10 @@
-import { Aside } from "../Aside/Aside";
-import { Footer } from "../Footer/Footer";
-import { Header } from "../Header/Header";
-import { MyNav } from "../Nav/Nav";
+import Footer from "../footer/footer";
+import Header from "../header/header";
+import MyNav from "../nav/nav";
 import Head from "next/head";
+import styles from './layout.module.css'
 
-export function Layout({children}: any){
+export default function Layout({children}: any){
     return(
         <>
             <Head>
@@ -19,7 +19,7 @@ export function Layout({children}: any){
                     <MyNav />
                 </div>
                 <div className="row">
-                    <main className="main-content col border-dark">
+                    <main className={`${styles.main} main-content col border-dark`}>
                         {children}
                     </main>
                 </div>

@@ -1,8 +1,10 @@
-export function Footer(){
+import styles from './footer.module.css'
+
+export default function Footer(){
     return(
         <>
             <footer className="bg-light">
-                <div className="footer-content">
+                <div className={styles.footer}>
                     <ul>
                         <li><a href="">Instagram</a></li>
                         <li><a href="">Discord</a></li>
