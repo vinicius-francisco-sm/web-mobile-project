@@ -1,0 +1,4 @@
+/* Definir um tamanho fixo para o card */
+.card {
+    height: 250px;
+}

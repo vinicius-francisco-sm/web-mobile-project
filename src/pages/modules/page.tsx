@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import Layout from "@/components/layout/layout";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import styles from './page.module.css'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,7 @@ export default function Modules() {
                   <Card.Text>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. A debitis quidem numquam laudantium rerum suscipit, exercitationem fuga atque corporis accusantium qui ipsam, repellat dolorem! Inventore voluptatem perspiciatis totam libero recusandae.
                   </Card.Text>
-                  <Button variant="primary">Acessar</Button>
+                  <a href="/module1/overview/page"><Button variant="primary">Acessar</Button></a>
                 </Card.Body>
               </Card>
             </div>
@@ -31,7 +32,7 @@ export default function Modules() {
                   <Card.Text>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequuntur sequi est, veritatis, autem quos rerum earum pariatur architecto non cumque laboriosam enim? Deleniti aliquam nisi, reiciendis facere nesciunt ducimus.
                   </Card.Text>
-                  <Button variant="primary">Acessar</Button>
+                  <a href="/module2/overview/page"><Button variant="primary">Acessar</Button></a>
                 </Card.Body>
               </Card>
             </div>
@@ -43,7 +44,7 @@ export default function Modules() {
                   <Card.Text>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate fugiat magnam earum atque voluptatem ratione nobis ullam et non aperiam quo autem temporibus, inventore quidem nisi illum culpa. Velit!
                   </Card.Text>
-                  <Button variant="primary">Acessar</Button>
+                  <a href="/module3/overview/page"><Button variant="primary">Acessar</Button></a>
                 </Card.Body>
               </Card>
             </div>
